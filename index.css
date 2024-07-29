@@ -1,0 +1,164 @@
+*, ::before,::after{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+}
+
+
+html{
+      background-color: rgb(245, 245, 220);
+      font-family: "Playfair Display", serif;
+}
+
+body{
+      background-color: white;
+      font-size: 16px;
+      max-width: 800px;
+      margin: auto;
+      padding: 1rem 2rem;
+}
+
+li::marker{
+      font-size: .9rem;
+}
+
+/* Header */
+
+header{
+      padding: 0 1.5rem;
+      margin-bottom: 2rem;
+      display: flex;
+      
+}
+
+h1{
+      font-size: 2rem;
+      font-weight: 500;
+      
+}
+
+h2{
+      font-size: .9rem;
+      font-weight: 400;
+      padding-top: .1rem;
+      text-decoration-line: underline;
+      text-underline-offset: .2rem;
+      color: blue;
+      cursor: pointer;
+      margin-top: .8rem;
+      margin-left: 2rem;
+      
+}
+
+
+/* Social links */
+
+#social-links{
+      padding:1rem;
+}
+
+h3{
+      border-bottom: 1px black solid;
+      max-width: 100%;
+      padding: .3rem;
+      font-size: 1.3rem;
+}
+
+h3:first-of-type{
+      margin-top: .5rem;
+}
+
+#social-links-list{
+      list-style:none;
+      display: grid;
+      grid-template-columns: 50% 50%;
+      row-gap: 10px;
+      margin: .7rem auto;
+      padding-top: .4rem;
+}
+
+a{
+      /* text-transform: capitalize; */
+      cursor: pointer;
+}
+
+
+/* Work experience */
+
+#work-experience{
+      padding: 1rem;
+      border-bottom: 2px black solid;
+}
+
+
+/* Job Details */
+
+
+
+#job-details{
+      margin: 1rem auto;
+      list-style-type: none;
+}
+
+.job-title{
+      font-size: 1.3rem;
+       font-weight: 500;
+       line-height: 1.2rem;
+}
+
+.company-name{
+      font-size: .9rem;
+      font-weight: 500;
+      color: gray;
+}
+
+.job-duration{
+      font-size: .9rem;
+      font-weight: 500;
+      color: gray;
+}
+
+.job-description{
+      padding-left: .8rem;
+      
+}
+
+span{
+      font-size: 1.2rem;
+      font-weight: 700;
+      color: black
+}
+
+.job-description > li {
+      padding-bottom: .5rem;
+      font-weight: 400;
+      color: rgb(35, 35, 35);
+}
+
+
+/* Certifications */
+
+#certifications{
+      padding-bottom: 1.5rem;
+}
+
+.last-h4 {
+      font-size: 1.2rem;
+      margin: .5rem 0;
+      padding: 0 .5rem;
+}
+
+#certifications-ul {
+      padding: 0 .5rem;
+      list-style: none;
+}
+
+.certifications-span{
+      font-size: 1rem;
+      font-weight: 400;
+}
+
+.certifications-keywords{
+      font-weight: 500;
+      font-size: 1.1rem;
+}
